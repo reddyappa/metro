@@ -1,0 +1,71 @@
+app-root {
+    margin-top: 146px !important;
+    float: left;
+}
+.app-content {
+    margin-top: 120px;
+    min-height: 740px;
+    padding: 30px;
+    background: #FFF;
+}
+.app-content {
+    margin-top: 120px;
+}
+
+.homeEachNewsSectionList {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    list-style-type: none;
+}
+.homeNewNewsSection .homeEachNewsSection h2 {
+    margin-bottom: 7px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #6f6f6f;
+    text-align: center;
+    padding-top: 10px;
+}
+.homeCelebList li {
+    min-height: 70px;
+}
+.homeCelebList li a{
+    text-decoration: none;
+}
+.homeNewNewsSection .homeEachNewsSection h2.celebrety {
+    border-top: 3px solid #f6084b;
+}
+.homeEachNewsSectionList {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+}
+.homeCelebList li a img {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid #efefef;
+}
+.homeCelebList li a .homeNewsTabNewsTitle {
+    margin-left: 70px;
+    padding-top: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.homeEachNewsSectionList li a .homeNewsTabNewsTitle {
+    font-size: 90%;
+    color: #666;
+    display: block;
+    line-height: 1.5;
+}
+.homeEachNewsSectionList li a {
+    display: block;
+    width: 100%;
+    color: #555;
+}

@@ -1,0 +1,88 @@
+<div class="app-content">
+   <div class="row">
+    <div class="col-xs-12 col-md-8 col-lg-8">
+        <h2>Data info</h2>
+        <form  #userPost="ngForm" (ngSubmit)="onSubmit(userPost)">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" ngModel>
+              </div>
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email" ngModel>
+              </div>
+              <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" class="form-control" id="address" ngModel>
+              </div>
+              <div class="form-group">
+                <label for="rating">Raing:</label>
+                <input type="text" class="form-control" id="rating" ngModel>
+              </div>
+              <div class="form-group" style="margin-top: 30px;">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+              
+        </form>
+        <p><a routerLink="/home" class="nav-link" routerLinkActive="active">Back to Home</a></p>
+    </div>
+    <div class="col-xs-12 col-md-4 col-lg-4">
+
+        <div class="homeEachNewsSection">
+            <h2 class="celebrety">Celebrity Updates</h2>
+            <ul class="homeEachNewsSectionList homeCelebList">
+            <li>
+            <a href="https://www.chitramala.in/celebrity/chiranjeevi/" title="Chiranjeevi">
+            <img src="https://www.chitramala.in/wp-content/uploads/2015/03/chiranjeev-64x64.jpg" alt="Chiranjeevi" class="homeEachNewCelebPhoto" title="Chiranjeevi" width="60" height="60" data-pagespeed-url-hash="1950933753" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <span class="homeNewsTabNewsTitle">
+            Chiranjeevi </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.chitramala.in/celebrity/naveen-chandra/" title="Naveen Chandra">
+            <img src="https://www.chitramala.in/wp-content/uploads/2015/04/naveen-chandra-64x64.jpg" alt="Naveen Chandra" class="homeEachNewCelebPhoto" title="Naveen Chandra" width="60" height="60" data-pagespeed-url-hash="447667700" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <span class="homeNewsTabNewsTitle">
+            Naveen Chandra </span>
+             </a>
+            </li>
+            <li>
+            <a href="https://www.chitramala.in/celebrity/allu-arjun/" title="Allu Arjun">
+            <img src="https://www.chitramala.in/wp-content/uploads/2015/03/allu-arjun-2-64x64.jpg" alt="Allu Arjun" class="homeEachNewCelebPhoto" title="Allu Arjun" width="60" height="60" data-pagespeed-url-hash="3324753680" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <span class="homeNewsTabNewsTitle">
+            Allu Arjun </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.chitramala.in/celebrity/trivikram-srinivas/" title="Trivikram Srinivas">
+            <img src="https://www.chitramala.in/wp-content/uploads/2015/03/Trivikram-Srinivas-64x64.png" alt="Trivikram Srinivas" class="homeEachNewCelebPhoto" title="Trivikram Srinivas" width="60" height="60" data-pagespeed-url-hash="2351968717" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <span class="homeNewsTabNewsTitle">
+            Trivikram Srinivas </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.chitramala.in/celebrity/allu-aravind/" title="Allu Aravind">
+            <img src="https://www.chitramala.in/wp-content/uploads/2016/04/allu-aravind-64x64.jpg" alt="Allu Aravind" class="homeEachNewCelebPhoto" title="Allu Aravind" width="60" height="60" data-pagespeed-url-hash="2065050974" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <span class="homeNewsTabNewsTitle">
+            Allu Aravind </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.chitramala.in/celebrity/ayushmann-khurrana/" title="Ayushmann Khurrana">
+            <img src="https://www.chitramala.in/wp-content/uploads/2018/10/ayushmann-khurrana-64x64.jpg" alt="Ayushmann Khurrana" class="homeEachNewCelebPhoto" title="Ayushmann Khurrana" width="60" height="60" data-pagespeed-url-hash="4075986148" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <span class="homeNewsTabNewsTitle">
+            Ayushmann Khurrana </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.chitramala.in/celebrity/mahesh-babu/" title="Mahesh Babu">
+            <img src="https://www.chitramala.in/wp-content/uploads/2015/03/mahesh-babu-64x64.jpeg" alt="Mahesh Babu" class="homeEachNewCelebPhoto" title="Mahesh Babu" width="60" height="60" data-pagespeed-url-hash="3918700042" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            <span class="homeNewsTabNewsTitle">
+            Mahesh Babu </span>
+            </a>
+            </li>
+            </ul>
+            </div>
+
+        </div>
+   </div>
+    </div>

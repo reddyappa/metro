@@ -1,0 +1,12 @@
+.app-content {
+    margin-top: 120px;
+    min-height: 740px;
+    background: #FFF;
+
+}
+.app-content {
+    border-top: 3px solid #8852c5;
+    min-height: 760px;
+    padding: 30px;
+    background: #FFF;
+}
